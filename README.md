@@ -1,1 +1,1 @@
-# SE_BN_Koduleht
+# Sissejuhatus Erialasse kodulehe projekt
