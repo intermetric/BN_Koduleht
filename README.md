@@ -1,1 +1,1 @@
-# Sissejuhatus Erialasse kodulehe projekt
+# kodulehe projekt
