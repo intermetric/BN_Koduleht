@@ -1,0 +1,431 @@
+@font-face {
+    font-family: terehommikust;
+    src: url(Nexa.woff2);
+}
+
+@font-face {
+    font-family: kuidaspalun;
+    src: url(Acre.woff2);
+}
+
+@font-face {
+    font-family: angelamerkel;
+    src: url(Quasimoda.woff2);
+}
+
+@font-face {
+    font-family: indeks;
+    src: url(Quasimoda.woff2)
+}
+
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+ul {
+    right: 0%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    position: fixed;
+    background-color: #1c2020;
+    font: normal 18px Oswald, sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 35px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #1c2020;
+    color: white;
+}
+
+.index {
+    min-height: 100%;
+    position: relative;
+    background-color: #1c2020;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tehtudtood {
+    background-color: #fef9e8;
+}
+
+#home {
+    border-right: 5px solid #624F34;
+    font-family: terehommikust;
+}
+
+#news {
+    border-right: 5px solid #9C7E53;
+    font-family: terehommikust;
+}
+
+#contact {
+    border-right: 5px solid #D2A96D;
+    font-family: terehommikust;
+}
+
+#tehtud {
+    border-right: 5px solid #E5CBA6;
+    font-family: terehommikust;
+}
+
+#home:hover {
+    background-color: #624F34;
+}
+
+#news:hover {
+    background-color: #9C7E53;
+}
+
+#contact:hover {
+    background-color: #D2A96D;
+}
+
+#tehtud:hover {
+    background-color: #E5CBA6;
+}
+
+.responsive {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.box2 {
+    background-image: url(leht1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+}
+
+.box3 {
+    background-image: url(leht2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 730px;
+    height: 400px;
+}
+
+.box4 {
+    background-image: url(leht3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+}
+
+.box5 {
+    background-image: url(leht4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 730px;
+    height: 400px;
+}
+
+.box6 {
+    background-image: url(leht5.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+}
+
+.box7 {
+    background-image: url(leht6.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 730px;
+    height: 400px;
+}
+
+.box8 {
+    background-image: url(leht7.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+}
+
+.box9 {
+    background-image: url(leht8.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 730px;
+    height: 400px;
+}
+
+.box2:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.box3:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.box4:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.box5:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.box6:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.box7:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.box8:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.box9:hover {
+    filter: brightness(60%) blur(2px);
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: kuidaspalun;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #402B0B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #191004;
+}
+
+form {
+    width: 170%;
+    padding-left: 35px;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+.container1 {
+    width: 30%;
+    background-color: #fef9e8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.kast {
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    right: 0%;
+    width: 70%;
+    background-image: url(contactf.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.esimene {
+    padding-top: 40px;
+}
+
+.tekst {
+    padding-left: 35px;
+    font-size: 15px;
+    font-family: angelamerkel;
+}
+
+.pealkiri {
+    font-family: kuidaspalun;
+    padding-left: 40px;
+    font-size: 39px;
+}
+
+.sear {
+    font-family: angelamerkel;
+    padding-left: 40px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.jutt {
+    color: #1c2020;
+    position: absolute;
+}
+
+.pealkiri1 {
+    text-transform: uppercase;
+    font-family: kuidaspalun;
+    font-weight: 1000;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+.link1 {
+    color: brown;
+    font-size: 26px;
+}
+
+.kast2 {
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    position: absolute;
+    right: 0%;
+    width: 37%;
+    background-image: url(pakpilt.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.leht2 {
+    background-color: #fef9e8;
+}
+
+
+@media screen and (min-width: 800px) {
+    .kast {
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        right: 0%;
+        width: 70%;
+        background-image: url(contactf.jpg);
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    .kast2 {
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        position: absolute;
+        right: 0%;
+        width: 37%;
+        background-image: url(pakpilt.jpg);
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    #cloud-container {
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        border-radius: 5px;
+        background-image: url(pilt1c.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 24%;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        left: 0;
+        overflow: hidden;
+        z-index: -1;
+        filter: brightness(100%);
+    }
+
+    #cloud-container1 {
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        border-radius: 5px;
+        background-image: url(pilt2c.jpg);
+        background-size: cover;
+        width: 24%;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        right: 0;
+        left: 25%;
+        overflow: hidden;
+        z-index: -1;
+        filter: brightness(80%);
+    }
+
+    #cloud-container2 {
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        border-radius: 5px;
+        background-image: url(pilt4c.jpg);
+        background-size: cover;
+        width: 24%;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        right: 0;
+        left: 50%;
+        overflow: hidden;
+        z-index: -1;
+        filter: brightness(100%);
+    }
+
+    #cloud-container3 {
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        border-radius: 5px;
+        background-image: url(pilt3c.jpg);
+        background-size: cover;
+        width: 25%;
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        right: 100px;
+        left: 75%;
+        overflow: hidden;
+        z-index: -1;
+        filter: brightness(100%);
+    }
+}
