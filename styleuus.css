@@ -210,11 +210,11 @@ li a.active {
 
 .centered {
     position: absolute;
-    top: 18%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: kuidaspalun;
-    font-size: 50px;
+    font-size: 45px;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -362,12 +362,8 @@ form {
     }
 
     #cloud-container {
-        background-repeat-x: no-repeat;
-        background-repeat-y: no-repeat;
-        border-radius: 5px;
-        background-image: url(pilt1c.jpg);
-        background-position: center;
         background-size: cover;
+        border-radius: 5px;
         width: 24%;
         position: absolute;
         top: 20px;
@@ -379,11 +375,7 @@ form {
     }
 
     #cloud-container1 {
-        background-repeat-x: no-repeat;
-        background-repeat-y: no-repeat;
         border-radius: 5px;
-        background-image: url(pilt2c.jpg);
-        background-size: cover;
         width: 24%;
         position: absolute;
         top: 20px;
@@ -392,15 +384,11 @@ form {
         left: 25%;
         overflow: hidden;
         z-index: -1;
-        filter: brightness(80%);
+        filter: brightness(100%);
     }
 
     #cloud-container2 {
-        background-repeat-x: no-repeat;
-        background-repeat-y: no-repeat;
         border-radius: 5px;
-        background-image: url(pilt4c.jpg);
-        background-size: cover;
         width: 24%;
         position: absolute;
         top: 20px;
@@ -413,11 +401,7 @@ form {
     }
 
     #cloud-container3 {
-        background-repeat-x: no-repeat;
-        background-repeat-y: no-repeat;
         border-radius: 5px;
-        background-image: url(pilt3c.jpg);
-        background-size: cover;
         width: 25%;
         position: absolute;
         top: 20px;
@@ -428,4 +412,5 @@ form {
         z-index: -1;
         filter: brightness(100%);
     }
+
 }
