@@ -22,7 +22,7 @@ body {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: white;
+    background-color: #1c2020;
 }
 
 ul {
@@ -48,17 +48,7 @@ li a.active {
     color: white;
 }
 
-.index {
-    min-height: 100%;
-    position: relative;
-    background-color: #1c2020;
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
-.tehtudtood {
-    background-color: #fef9e8;
-}
 
 #home {
     border-right: 5px solid #624F34;
@@ -261,8 +251,6 @@ form {
 }
 
 .kast {
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
     right: 0%;
     width: 70%;
     background-image: url(contactf.jpg);
@@ -279,7 +267,7 @@ form {
 
 .tekst {
     padding-left: 35px;
-    font-size: 15px;
+    -size: 15px;
     font-family: angelamerkel;
 }
 
@@ -304,7 +292,6 @@ form {
 .pealkiri1 {
     text-transform: uppercase;
     font-family: kuidaspalun;
-    font-weight: 1000;
     padding-top: 20px;
     padding-left: 40px;
     font-size: 27px;
@@ -316,8 +303,7 @@ form {
 }
 
 .kast2 {
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
+
     position: absolute;
     right: 0%;
     width: 37%;
@@ -336,8 +322,6 @@ form {
 
 @media screen and (min-width: 800px) {
     .kast {
-        background-repeat-x: no-repeat;
-        background-repeat-y: no-repeat;
         right: 0%;
         width: 70%;
         background-image: url(contactf.jpg);
@@ -350,8 +334,6 @@ form {
     }
 
     .kast2 {
-        background-repeat-x: no-repeat;
-        background-repeat-y: no-repeat;
         position: absolute;
         right: 0%;
         width: 37%;
