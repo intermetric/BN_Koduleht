@@ -1,0 +1,389 @@
+@font-face {
+  font-family: terehommikust;
+  src: url(/fonts/Nexa.woff2);
+}
+
+@font-face {
+  font-family: kuidaspalun;
+  src: url(/fonts/Acre.woff2);
+}
+
+@font-face {
+  font-family: angelamerkel;
+  src: url(/fonts/Quasimoda.woff2);
+}
+
+@font-face {
+  font-family: indeks;
+  src: url(/fonts/Quasimoda.woff2);
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+ul {
+  right: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  position: fixed;
+  background-color: #1c2020;
+  font: normal 18px Oswald, sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 35px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #1c2020;
+  color: white;
+}
+
+.index {
+  min-height: 100%;
+  position: relative;
+  background-color: #1c2020;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tehtudtood {
+  background-color: #fef9e8;
+}
+
+#home {
+  border-right: 5px solid #624f34;
+  font-family: terehommikust;
+}
+
+#news {
+  border-right: 5px solid #9c7e53;
+  font-family: terehommikust;
+}
+
+#contact {
+  border-right: 5px solid #d2a96d;
+  font-family: terehommikust;
+}
+
+#tehtud {
+  border-right: 5px solid #e5cba6;
+  font-family: terehommikust;
+}
+
+#home:hover {
+  background-color: #624f34;
+}
+
+#news:hover {
+  background-color: #9c7e53;
+}
+
+#contact:hover {
+  background-color: #d2a96d;
+}
+
+#tehtud:hover {
+  background-color: #e5cba6;
+}
+
+.responsive {
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  float: left;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7
+.box8,
+.box9 {
+  background-size: cover;
+  background-position: center;
+}
+
+.box2 {
+  background-image: url(img/leht1.jpg);
+  width: 600px;
+  height: 400px;
+}
+
+.box3 {
+  background-image: url(img/leht2.jpg);
+  width: 730px;
+  height: 400px;
+}
+
+.box4 {
+  background-image: url(img/leht3.jpg);
+  width: 600px;
+  height: 400px;
+}
+
+.box5 {
+  background-image: url(img/leht4.jpg);
+  width: 730px;
+  height: 400px;
+}
+
+.box6 {
+  background-image: url(img/leht5.jpg);
+  width: 600px;
+  height: 400px;
+}
+
+.box7 {
+  background-image: url(img/leht6.jpg);
+  width: 730px;
+  height: 400px;
+}
+
+.box8 {
+  background-image: url(img/leht7.jpg);
+  width: 600px;
+  height: 400px;
+}
+
+.box9 {
+  background-image: url(img/leht8.jpg);
+  width: 730px;
+  height: 400px;
+}
+
+.box2:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.box3:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.box4:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.box5:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.box6:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.box7:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.box8:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.box9:hover {
+  filter: brightness(60%) blur(2px);
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: kuidaspalun;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #402b0b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #191004;
+}
+
+form {
+  width: 170%;
+  padding-left: 35px;
+  border-radius: 5px;
+  padding-top: 50px;
+}
+
+.container1,
+.kast {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.container1 {
+  width: 30%;
+  background-color: #fef9e8;
+}
+
+.kast {
+  right: 0%;
+  width: 70%;
+  background: url(img/contactf.jpg) no-repeat;
+}
+
+.esimene {
+  padding-top: 40px;
+}
+
+.tekst {
+  padding-left: 35px;
+  font-size: 15px;
+  font-family: angelamerkel;
+}
+
+.pealkiri {
+  font-family: kuidaspalun;
+  padding-left: 40px;
+  font-size: 38px;
+}
+
+.sear {
+  font-family: angelamerkel;
+  padding-left: 40px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.jutt {
+  color: #1c2020;
+  position: absolute;
+}
+
+.pealkiri1 {
+  text-transform: uppercase;
+  font-family: kuidaspalun;
+  font-weight: 100;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 27px;
+}
+
+.link1 {
+  color: brown;
+  font-size: 26px;
+}
+
+.kast2 {
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0%;
+  width: 37%;
+  background: url(img/pakpilt.jpg) cover center;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.leht2 {
+  background-color: #fef9e8;
+}
+
+@media screen and (min-width: 800px) {
+  .kast {
+    background-repeat: no-repeat;
+    right: 0%;
+    width: 70%;
+    background-image: url(img/contactf.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .kast2 {
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0%;
+    width: 37%;
+    background-image: url(img/pakpilt.jpg);
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  #cloud-container,
+  #cloud-container1,
+  #cloud-container2,
+  #cloud-container3 {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    filter: brightness(100%);
+    border-radius: 5px;
+    top: 20px;
+    bottom: 20px;
+  }
+
+  #cloud-container {
+    background-size: cover;
+    width: 24%;
+    left: 0;
+  }
+
+  #cloud-container1 {
+    width: 24%;
+    right: 0;
+    left: 25%;
+  }
+
+  #cloud-container2 {
+    width: 24%;
+    right: 0;
+    left: 50%;
+  }
+
+  #cloud-container3 {
+    width: 25%;
+    right: 100px;
+    left: 75%;
+  }
+}

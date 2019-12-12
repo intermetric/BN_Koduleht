@@ -4,13 +4,13 @@ var kestus = 4000;
 
 
 
-pildid[0] = 'pilt1c.jpg';
-pildid[1] = 'pilt2c.jpg';
-pildid[2] = 'pilt4c.jpg';
-pildid[3] = 'pilt3c.jpg';
-pildid[4] = 'pilt1c.jpg';
-pildid[5] = 'pilt2c.jpg';
-pildid[6] = 'pilt4c.jpg';
+pildid[0] = '/img/pilt1c.jpg';
+pildid[1] = '/img/pilt2c.jpg';
+pildid[2] = '/img/pilt4c.jpg';
+pildid[3] = '/img/pilt3c.jpg';
+pildid[4] = '/img/pilt1c.jpg';
+pildid[5] = '/img/pilt2c.jpg';
+pildid[6] = '/img/pilt4c.jpg';
 
 
 
