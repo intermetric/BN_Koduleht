@@ -1,20 +1,15 @@
 @font-face {
-  font-family: terehommikust;
+  font-family: nexa;
   src: url(/fonts/Nexa.woff2);
 }
 
 @font-face {
-  font-family: kuidaspalun;
+  font-family: acre;
   src: url(/fonts/Acre.woff2);
 }
 
 @font-face {
-  font-family: angelamerkel;
-  src: url(/fonts/Quasimoda.woff2);
-}
-
-@font-face {
-  font-family: indeks;
+  font-family: quasi;
   src: url(/fonts/Quasimoda.woff2);
 }
 
@@ -62,22 +57,22 @@ li a.active {
 
 #home {
   border-right: 5px solid #624f34;
-  font-family: terehommikust;
+  font-family: nexa;
 }
 
 #news {
   border-right: 5px solid #9c7e53;
-  font-family: terehommikust;
+  font-family: nexa;
 }
 
 #contact {
   border-right: 5px solid #d2a96d;
-  font-family: terehommikust;
+  font-family: nexa;
 }
 
 #tehtud {
   border-right: 5px solid #e5cba6;
-  font-family: terehommikust;
+  font-family: nexa;
 }
 
 #home:hover {
@@ -167,35 +162,7 @@ li a.active {
   height: 400px;
 }
 
-.box2:hover {
-  filter: brightness(60%) blur(2px);
-}
-
-.box3:hover {
-  filter: brightness(60%) blur(2px);
-}
-
-.box4:hover {
-  filter: brightness(60%) blur(2px);
-}
-
-.box5:hover {
-  filter: brightness(60%) blur(2px);
-}
-
-.box6:hover {
-  filter: brightness(60%) blur(2px);
-}
-
-.box7:hover {
-  filter: brightness(60%) blur(2px);
-}
-
-.box8:hover {
-  filter: brightness(60%) blur(2px);
-}
-
-.box9:hover {
+.responsive .box:hover {
   filter: brightness(60%) blur(2px);
 }
 
@@ -209,7 +176,7 @@ li a.active {
   top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: kuidaspalun;
+  font-family: acre;
   font-size: 38px;
   text-transform: uppercase;
   font-weight: 500;
@@ -263,7 +230,7 @@ form {
 }
 
 .kast {
-  right: 0%;
+  right: 0;
   width: 70%;
   background: url(img/contactf.jpg) no-repeat;
 }
@@ -275,17 +242,17 @@ form {
 .tekst {
   padding-left: 35px;
   font-size: 15px;
-  font-family: angelamerkel;
+  font-family: quasi;
 }
 
 .pealkiri {
-  font-family: kuidaspalun;
+  font-family: acre;
   padding-left: 40px;
   font-size: 38px;
 }
 
 .sear {
-  font-family: angelamerkel;
+  font-family: quasi;
   padding-left: 40px;
   font-size: 20px;
   margin-top: 0px;
@@ -298,7 +265,7 @@ form {
 
 .pealkiri1 {
   text-transform: uppercase;
-  font-family: kuidaspalun;
+  font-family: acre;
   font-weight: 100;
   padding-top: 20px;
   padding-left: 40px;
@@ -326,28 +293,26 @@ form {
 }
 
 @media screen and (min-width: 800px) {
-  .kast {
-    background-repeat: no-repeat;
-    right: 0%;
-    width: 70%;
-    background-image: url(img/contactf.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    overflow: hidden;
-    z-index: -1;
-  }
-
+  .kast,
   .kast2 {
     background-repeat: no-repeat;
     position: absolute;
-    right: 0%;
-    width: 37%;
-    background-image: url(img/pakpilt.jpg);
     top: 0;
     bottom: 0;
+    right: 0;
     z-index: -1;
+  }
+
+  .kast {
+    width: 70%;
+    background: url(img/contactf.jpg) cover;
+    overflow: hidden;
+
+  }
+
+  .kast2 {
+    width: 37%;
+    background-image: url(img/pakpilt.jpg);
   }
 
   #cloud-container,

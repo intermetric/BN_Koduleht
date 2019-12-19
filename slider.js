@@ -1,17 +1,13 @@
 var i = 0;
-var pildid = [];
-var kestus = 4000;
+var pildid = ['/img/pilt1c.jpg',
+			'/img/pilt2c.jpg',
+			'/img/pilt4c.jpg',
+			'/img/pilt3c.jpg',
+			'/img/pilt1c.jpg',
+			'/img/pilt2c.jpg',
+			'/img/pilt4c.jpg'];
 
-
-
-pildid[0] = '/img/pilt1c.jpg';
-pildid[1] = '/img/pilt2c.jpg';
-pildid[2] = '/img/pilt4c.jpg';
-pildid[3] = '/img/pilt3c.jpg';
-pildid[4] = '/img/pilt1c.jpg';
-pildid[5] = '/img/pilt2c.jpg';
-pildid[6] = '/img/pilt4c.jpg';
-
+var kestvus = 4000;
 
 
 function slider(){
@@ -26,7 +22,7 @@ function slider(){
 		i = 0;
 	}
 
-	setTimeout("slider()", kestus);
+	setTimeout("slider()", kestvus);
 }
 
 window.onload = slider
